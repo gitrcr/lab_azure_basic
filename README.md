@@ -17,7 +17,7 @@ Crear una infraestructura básica en Azure utilizando Terraform. (requiere git y
 
 ```bash
 git clone https://github.com/gitrcr/azlab_linux.git
-cd azlab_linux
+cd lab_azure_basic
 # create ssh key (test) in compute module folder
 ssh-keygen -t rsa -b 2048 -C "labadmin@linux-vm" -f .\modules\compute\id_labadmin
 ```
