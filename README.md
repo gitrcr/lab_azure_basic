@@ -1,5 +1,6 @@
 # Plantilla laboratorio Azure
 !! usar solo en laboratorios !!
+
 Crear una infraestructura básica en Azure utilizando Terraform. (requiere git y terraform)
 
 * project: random-hex. Se añade a todos los recursos "-xxxxxx"
