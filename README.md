@@ -1,12 +1,6 @@
 # Plantilla laboratorio Azure
-Azure Lab Linux
-
-## Requisitos
-* Terraform
-* Git
-
-## Objetivo
-Crear una infraestructura básica en Azure utilizando Terraform.
+!! usar solo en laboratorios !!
+Crear una infraestructura básica en Azure utilizando Terraform. (requiere git y terraform)
 
 * project: random-hex. Se añade a todos los recursos "-xxxxxx"
 * resource_group: lab-rg
