@@ -53,9 +53,11 @@ locals {
 
 ```bash
 terraform fmt
-terraform init
+terraform init -upgrade
 terraform validate
-terraform plan
+terraform plan -out main.tfplan
+terraform apply main.tfplan
+
 # crear la infraestructura
 terraform apply
 # eliminar los objetos creados
